@@ -1,0 +1,42 @@
+@import "./colors";
+@import "./fonts";
+
+@mixin d-flex {display: flex;}
+@mixin ai-c {align-items: center;}
+
+@mixin between {
+    @include d-flex;
+    justify-content: space-between;
+    @include ai-c;
+}
+
+@mixin around-rev {
+    @include d-flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+@mixin btn {
+    background: $golden;
+    border-radius: 4px;
+    font-size: 25px;
+    font-weight: 700;
+    color: $grey;
+    padding: 16px 56px;
+}
+
+@mixin bg-settings {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@mixin flex-col {
+    @include d-flex;
+    flex-direction: column;
+}
+
+@mixin flex-cent {
+    @include d-flex;
+    justify-content: center;
+    @include ai-c;
+}

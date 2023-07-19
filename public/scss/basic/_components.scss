@@ -1,0 +1,20 @@
+@import "./colors";
+@import "./fonts";
+@import "./mixins";
+
+h1,h2,h3,h4 {font-family: $title-font;}
+h1 {font-size: 125px;}
+h2 {font-size: 100px;}
+h3 {font-size: 75px;}
+h4 {font-size: 42px;}
+h1,h2 {color: $golden;}
+h3,h4 {color: $grey;}
+.btn {
+    @include btn;
+    text-transform: uppercase;
+}
+.large {padding: 22px 74px;}
+.small {padding: 22px 26px;}
+.nav_link {margin-left: 70px; color: white;}
+.light {color: #fff;}
+.t-a-c {text-align: center;}
