@@ -3,6 +3,7 @@
         position: relative;
         background: $grey;
         padding: 20px 15px;
+
         .header__nav {
             position: fixed;
             width: 100%;
@@ -13,6 +14,7 @@
             @include flex-cent;
             @include flex-col;
             transition-duration: 0.5s;
+
             .nav_link {
                 margin: 30px 0 !important;
                 font-size: 30px !important;
@@ -20,40 +22,156 @@
                 font-size: 5px;
             }
         }
-        .header__nav.show {right: 0;}
+
+        .header__nav.show {
+            right: 0;
+        }
+
         .burger {
             display: block !important;
             z-index: 5;
         }
     }
 
-    .searcher {min-width: 80vw;}
-}
+    .searcher {
+        min-width: 80vw;
+    }
 
-@media screen and (max-width: 768px) {
     .hero {
         .wrapper {
             @include flex-cent;
             padding-top: 30px;
             height: auto;
             text-align: center;
-            .content {width: 90%;}
+
+            .content {
+                width: 90%;
+            }
         }
     }
-    .beast-seyler {.menu {@include flex-col;}}
+}
+
+@media screen and (max-width: 768px) {
+    .beast-seyler {
+        .menu {
+            @include flex-col;
+        }
+    }
+
     .Oriental-Taste {
         .wrapper {
             @include flex-col;
             text-align: center;
+
             .Orient_text {
                 padding-top: 50px;
                 width: 100%;
             }
-            img {display: none;}
+
+            img {
+                display: none;
+            }
         }
     }
+
     footer {
         text-align: center;
-        .title-here {margin-bottom: 50px;}
+
+        .title-here {
+            margin-bottom: 50px;
+        }
+    }
+}
+
+@media screen and (max-width:576px) {
+    .header {
+        img {
+            width: 30px;
+            height: 30px;
+        }
+
+        .header__logo {
+            img {
+                width: 120px;
+            }
+        }
+    }
+
+    .hero {
+        h1 {
+            font-size: 75px;
+        }
+
+        p {
+            font-size: 20px;
+            margin-top: 20px;
+        }
+
+        .btn {
+            font-size: 20px;
+        }
+    }
+
+    .beast-seyler {
+        img {
+            width: 150px;
+            height: 150px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+    }
+
+    .Oriental-Taste {
+        .btn {
+            font-size: 19px;
+        }
+    }
+
+    .statistics {
+        p {
+            font-size: 20px;
+        }
+    }
+
+    .Chicken-Grill {
+        .title {
+            font-size: 70px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+    }
+
+    .Lenora-Fields {
+        p.sub-title {
+            font-size: 30px !important;
+        }
+    }
+
+    .Subscribe {
+        input  {
+            width: 100% !important;
+            border: 3px dashed #000;
+            border-radius: 20px !important;
+        }
+    }
+
+    footer {
+        p {
+            font-size: 15px !important;
+        }
+
+        .title {
+            margin-top: 100px !important;
+            font-size: 50px !important;
+        }
+
+        img {
+            width: 30px !important;
+            height: 30px !important;
+        }
     }
 }

@@ -7,7 +7,6 @@
   text-decoration: none;
   outline: none;
   border: none;
-  transition: 0.5s ease-in-out;
 }
 
 html,
@@ -88,7 +87,6 @@ h3, h4 {
 }
 
 .nav_link {
-  margin-left: 70px;
   color: white;
 }
 
@@ -107,6 +105,12 @@ h3, h4 {
   background-color: transparent;
   position: absolute;
 }
+.header nav {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .header .header_wrapper {
   display: flex;
   justify-content: space-between;
@@ -117,7 +121,7 @@ h3, h4 {
 }
 
 .hero {
-  background: url("../images/layers.png");
+  background-image: url("../images/layers.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -169,8 +173,7 @@ h3, h4 {
   margin-bottom: 25px;
 }
 .beast-seyler .wrapper .menu .food p {
-  font-family: "Montserrat", sans-serif;
-  font-size: 16.9px;
+  font-size: 70%;
 }
 
 .Oriental-Taste {
@@ -211,7 +214,6 @@ h3, h4 {
   border: 5px solid #ffffff;
   border-radius: 100%;
   font-weight: 700;
-  font-family: "Montserrat", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -299,7 +301,6 @@ footer .wrapper img {
   margin-right: 10px;
 }
 footer .wrapper p {
-  font-family: "Montserrat", sans-serif;
   font-size: 23.6px;
   line-height: 1.2;
 }
@@ -340,8 +341,6 @@ footer .wrapper p {
   .searcher {
     min-width: 80vw;
   }
-}
-@media screen and (max-width: 768px) {
   .hero .wrapper {
     display: flex;
     justify-content: center;
@@ -353,6 +352,8 @@ footer .wrapper p {
   .hero .wrapper .content {
     width: 90%;
   }
+}
+@media screen and (max-width: 768px) {
   .beast-seyler .menu {
     display: flex;
     flex-direction: column;
@@ -374,5 +375,62 @@ footer .wrapper p {
   }
   footer .title-here {
     margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .header img {
+    width: 30px;
+    height: 30px;
+  }
+  .header .header__logo img {
+    width: 120px;
+  }
+  .hero h1 {
+    font-size: 75px;
+  }
+  .hero p {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .hero .btn {
+    font-size: 20px;
+  }
+  .beast-seyler img {
+    width: 150px;
+    height: 150px;
+  }
+  .beast-seyler p {
+    font-size: 20px;
+  }
+  .Oriental-Taste .btn {
+    font-size: 19px;
+  }
+  .statistics p {
+    font-size: 20px;
+  }
+  .Chicken-Grill .title {
+    font-size: 70px;
+  }
+  .Chicken-Grill p {
+    font-size: 20px;
+  }
+  .Lenora-Fields p.sub-title {
+    font-size: 30px !important;
+  }
+  .Subscribe input {
+    width: 100% !important;
+    border: 3px dashed #000;
+    border-radius: 20px !important;
+  }
+  footer p {
+    font-size: 15px !important;
+  }
+  footer .title {
+    margin-top: 100px !important;
+    font-size: 50px !important;
+  }
+  footer img {
+    width: 30px !important;
+    height: 30px !important;
   }
 }
