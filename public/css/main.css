@@ -386,14 +386,14 @@ footer .wrapper p {
     width: 120px;
   }
   .hero h1 {
-    font-size: 75px;
+    font-size: 70px;
   }
   .hero p {
     font-size: 20px;
     margin-top: 20px;
   }
   .hero .btn {
-    font-size: 20px;
+    font-size: 15px;
   }
   .beast-seyler img {
     width: 150px;
@@ -403,7 +403,7 @@ footer .wrapper p {
     font-size: 20px;
   }
   .Oriental-Taste .btn {
-    font-size: 19px;
+    font-size: 15px;
   }
   .statistics .wrapper {
     padding-bottom: 50px !important;
@@ -413,8 +413,8 @@ footer .wrapper p {
     font-size: 20px;
   }
   .statistics .circles .circle {
-    width: 140px !important;
-    height: 140px !important;
+    width: 130px !important;
+    height: 130px !important;
   }
   .statistics .circles .circle .title {
     font-size: 30px !important;
@@ -437,7 +437,7 @@ footer .wrapper p {
     border-radius: 20px !important;
   }
   .Subscribe .title {
-    font-size: 40px;
+    font-size: 80px;
   }
   footer p {
     font-size: 15px !important;
