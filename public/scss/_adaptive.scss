@@ -23,9 +23,7 @@
             }
         }
 
-        .header__nav.show {
-            right: 0;
-        }
+        .header__nav.show {right: 0;}
 
         .burger {
             display: block !important;
@@ -33,9 +31,7 @@
         }
     }
 
-    .searcher {
-        min-width: 80vw;
-    }
+    .searcher {min-width: 80vw;}
 
     .hero {
         .wrapper {
@@ -44,18 +40,14 @@
             height: auto;
             text-align: center;
 
-            .content {
-                width: 90%;
-            }
+            .content {width: 90%;}
         }
     }
 }
 
 @media screen and (max-width: 768px) {
     .beast-seyler {
-        .menu {
-            @include flex-col;
-        }
+        .menu {@include flex-col;}
     }
 
     .Oriental-Taste {
@@ -68,18 +60,13 @@
                 width: 100%;
             }
 
-            img {
-                display: none;
-            }
+            img {display: none;}
         }
     }
 
     footer {
         text-align: center;
-
-        .title-here {
-            margin-bottom: 50px;
-        }
+        .title-here {margin-bottom: 50px;}
     }
 }
 
@@ -91,25 +78,19 @@
         }
 
         .header__logo {
-            img {
-                width: 120px;
-            }
+            img {width: 120px;}
         }
     }
 
     .hero {
-        h1 {
-            font-size: 75px;
-        }
+        h1 {font-size: 75px;}
 
         p {
             font-size: 20px;
             margin-top: 20px;
         }
 
-        .btn {
-            font-size: 20px;
-        }
+        .btn {font-size: 20px;}
     }
 
     .beast-seyler {
@@ -118,37 +99,42 @@
             height: 150px;
         }
 
-        p {
-            font-size: 20px;
-        }
+        p {font-size: 20px;}
     }
 
     .Oriental-Taste {
-        .btn {
-            font-size: 19px;
-        }
+        .btn {font-size: 19px;}
     }
 
     .statistics {
-        p {
-            font-size: 20px;
+        .wrapper {
+            padding-bottom: 50px !important;
+            padding-top: 50px !important;
+        }
+        p {font-size: 20px;}
+        
+        .circles {
+            .circle {
+                width: 140px !important;
+                height: 140px !important;
+                .title {
+                    font-size: 30px !important;
+                }
+
+                .sub-title {
+                    font-size: 20px !important;
+                }
+            }
         }
     }
 
     .Chicken-Grill {
-        .title {
-            font-size: 70px;
-        }
-
-        p {
-            font-size: 20px;
-        }
+        .title {font-size: 70px;}
+        p {font-size: 20px;}
     }
 
     .Lenora-Fields {
-        p.sub-title {
-            font-size: 30px !important;
-        }
+        p.sub-title {font-size: 30px !important;}
     }
 
     .Subscribe {
@@ -157,12 +143,14 @@
             border: 3px dashed #000;
             border-radius: 20px !important;
         }
+
+        .title {
+            font-size: 40px;
+        }
     }
 
     footer {
-        p {
-            font-size: 15px !important;
-        }
+        p {font-size: 15px !important;}
 
         .title {
             margin-top: 100px !important;

@@ -405,8 +405,22 @@ footer .wrapper p {
   .Oriental-Taste .btn {
     font-size: 19px;
   }
+  .statistics .wrapper {
+    padding-bottom: 50px !important;
+    padding-top: 50px !important;
+  }
   .statistics p {
     font-size: 20px;
+  }
+  .statistics .circles .circle {
+    width: 140px !important;
+    height: 140px !important;
+  }
+  .statistics .circles .circle .title {
+    font-size: 30px !important;
+  }
+  .statistics .circles .circle .sub-title {
+    font-size: 20px !important;
   }
   .Chicken-Grill .title {
     font-size: 70px;
@@ -421,6 +435,9 @@ footer .wrapper p {
     width: 100% !important;
     border: 3px dashed #000;
     border-radius: 20px !important;
+  }
+  .Subscribe .title {
+    font-size: 40px;
   }
   footer p {
     font-size: 15px !important;
