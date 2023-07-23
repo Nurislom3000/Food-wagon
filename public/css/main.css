@@ -275,6 +275,14 @@ h3, h4 {
 footer {
   background-color: #303030;
 }
+footer .container {
+  width: 95%;
+  margin: 0;
+}
+footer .container .wrapper {
+  min-width: 100% !important;
+  margin: 0;
+}
 footer .wrapper {
   padding: 257px 0;
   display: flex;
@@ -449,5 +457,10 @@ footer .wrapper p {
   footer img {
     width: 30px !important;
     height: 30px !important;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .title-here {
+    display: none;
   }
 }
