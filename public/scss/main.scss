@@ -181,6 +181,16 @@
 footer {
     background-color: #303030;
 
+    .container {
+        width: 95%;
+        margin: 0;
+
+        .wrapper {
+            min-width: 100% !important;
+            margin: 0;
+        }
+    }
+
     .wrapper {
         padding: 257px 0;
         @include between;
